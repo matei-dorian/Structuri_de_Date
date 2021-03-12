@@ -1,0 +1,66 @@
+TESTUL 1 (N = 1000, MaxValue = 1000 )
+Bubble Sort: SUCCESS ... 0 ms
+Count Sort: SUCCESS ... 0 ms
+Pancake Sort: SUCCESS ... 10 ms
+Insertion Sort: SUCCESS ... 0 ms
+Merge Sort: SUCCESS ... 1 ms
+Quick Sort: SUCCESS ... 0 ms
+Radix Sort with base 10: SUCCESS ... 0 ms
+Radix Sort with base 256: SUCCESS ... 0 ms
+STL Sort: SUCCESS ... 0 ms
+--------------------------------
+TESTUL 2 (N = 10000, MaxValue = 500 )
+Bubble Sort: SUCCESS ... 0 ms
+Count Sort: SUCCESS ... 0 ms
+Pancake Sort: SUCCESS ... 693 ms
+Insertion Sort: SUCCESS ... 0 ms
+Merge Sort: SUCCESS ... 12 ms
+Quick Sort: SUCCESS ... 1 ms
+Radix Sort with base 10: SUCCESS ... 6 ms
+Radix Sort with base 256: SUCCESS ... 2 ms
+STL Sort: SUCCESS ... 2 ms
+--------------------------------
+TESTUL 3 (N = 100000, MaxValue = 10000 )
+Bubble Sort: FAILED ... N is too large!
+Count Sort: SUCCESS ... 2 ms
+Pancake Sort: FAILED ... N is too large!
+Insertion Sort: FAILED ... N is too large!
+Merge Sort: SUCCESS ... 128 ms
+Quick Sort: SUCCESS ... 18 ms
+Radix Sort with base 10: SUCCESS ... 61 ms
+Radix Sort with base 256: SUCCESS ... 25 ms
+STL Sort: SUCCESS ... 27 ms
+--------------------------------
+TESTUL 4 (N = 1000000, MaxValue = 10 )
+Bubble Sort: FAILED ... N is too large!
+Count Sort: SUCCESS ... 23 ms
+Pancake Sort: FAILED ... N is too large!
+Insertion Sort: FAILED ... N is too large!
+Merge Sort: SUCCESS ... 1292 ms
+Quick Sort: SUCCESS ... 213 ms
+Radix Sort with base 10: SUCCESS ... 624 ms
+Radix Sort with base 256: SUCCESS ... 262 ms
+STL Sort: SUCCESS ... 324 ms
+--------------------------------
+TESTUL 5 (N = 10000, MaxValue = 22222222 )
+Bubble Sort: SUCCESS ... 0 ms
+Count Sort: FAILED ... MaxValue is too large!
+Pancake Sort: SUCCESS ... 1031 ms
+Insertion Sort: SUCCESS ... 0 ms
+Merge Sort: SUCCESS ... 12 ms
+Quick Sort: SUCCESS ... 0 ms
+Radix Sort with base 10: SUCCESS ... 6 ms
+Radix Sort with base 256: SUCCESS ... 2 ms
+STL Sort: SUCCESS ... 2 ms
+--------------------------------
+TESTUL 6 (N = 10000000, MaxValue = 100000 )
+Bubble Sort: FAILED ... N is too large!
+Count Sort: FAILED ... MaxValue is too large!
+Pancake Sort: FAILED ... N is too large!
+Insertion Sort: FAILED ... N is too large!
+Merge Sort: SUCCESS ... 14962 ms
+Quick Sort: SUCCESS ... 2770 ms
+Radix Sort with base 10: SUCCESS ... 6464 ms
+Radix Sort with base 256: SUCCESS ... 2782 ms
+STL Sort: SUCCESS ... 4104 ms
+--------------------------------
